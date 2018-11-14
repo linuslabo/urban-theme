@@ -1,5 +1,5 @@
-# urban-theme
+# urban-circle-theme
 
-This theme is a Jekyll port of http://erosie.net/ with some modifications. It is designed for visual artists.
+This theme is a fork of Jekyll [urban-theme](https://github.com/midzer/urban-theme) with a more _circular_ and minimal look.
 
-Live-Demo: http://narkotyk.net/
+Live-Demo: https://coffcoff.cascone.net/ (Italian)
