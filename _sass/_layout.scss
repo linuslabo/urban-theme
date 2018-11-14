@@ -6,7 +6,16 @@
 }
 
 .site-header {
-    text-align: center;
+    text-align: right;
+    font-variant: small-caps;
+    font-family: 'Quicksand', sans-serif;
+    color: $color-senary;
+}
+
+.faded {
+    &:hover {
+        color: $color-secondary
+    }
 }
 
 .navbar {
@@ -21,10 +30,18 @@
 .post-nav {
     text-align: center;
     padding: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
 }
 
 .post-title {
     display: block;
+    margin-bottom: 0rem;
+}
+
+.post-date {
+    color: $color-senary;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /**
@@ -41,9 +58,12 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    margin: 2rem 0;
+    // border-top: 1px solid $grey-color-light;
+    margin: 10rem 0;
     padding: 2rem 0;
+    font-variant: small-caps;
+    font-family: 'Quicksand', sans-serif;
+    color: $color-senary;;
 }
 
 .contact-list,
@@ -59,8 +79,17 @@
     padding: 1rem;
     box-sizing: border-box;
     border: 1px solid $color-initial;
+    border-radius: 999px;
     
-    &:hover {
-        border: 1px solid $grey-color-light;
+    // &:hover {
+    //     border: 1px solid $grey-color-light;
+    // }
+    img {
+        border-radius: 999px;
+        opacity: 0.8;
+
+        &:hover {
+            opacity: 1;
+        }
     }
 }
